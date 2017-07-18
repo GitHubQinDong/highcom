@@ -6,7 +6,9 @@ Target Host: localhost
 Target Database: flowershop
 Date: 2017/7/14 17:15:25
 */
-
+DROP DATABASE IF EXISTS `flowershop`;
+CREATE DATABASE `flowershop`;
+USE `flowershop`;
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for cart
